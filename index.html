@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Afroshots</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+  <!-- pickmeup calendar -->
+  <link rel="stylesheet" href="lib/pickme-up-calendar/css/pickmeup.css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Domine|Montserrat:400,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="calendar.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- navbar -->
+
+  <header class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light py-3">
+      <a class="navbar-brand" href="#">Peexoo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+        <div class="navbar-nav align-items-center">
+          <a class="nav-item nav-link" href="#">I am a photographer</a>
+          <a class="nav-item nav-link" href="#">Explore photos</a>
+          <a class="nav-item nav-link" href="#">Find a photographer</a>
+          <a class="nav-item nav-link" href="#">Find my photos</a>
+          <a class="nav-item nav-link primary" href="#">Login or Register</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- hero section -->
+
+  <section>
+    <div class="hero"></div>
+    <div class="sub-nav">
+      <nav class="navbar navbar-expand-md navbar-dark container h-100">
+        <a class="navbar-brand" href="#">
+          <img class="display-photo" src="images/woman-camera.jpeg" alt="woman holding camera">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#subNav" aria-controls="subNav"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end h-100" id="subNav">
+          <div class="navbar-nav align-items-center h-100">
+            <a class="nav-item nav-link" href="#">Details</a>
+            <a class="nav-item nav-link" href="#">Portfolio</a>
+            <a class="nav-item nav-link active" href="#">Availability</a>
+            <a class="nav-item nav-link" href="#">Pricing Packages</a>
+            <a class="nav-item nav-link" href="#">Reviews</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <!-- main content -->
+  <section class="content py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h1 class="author">Afroshots <small><i class="fas fa-check-circle"></i></small></h1>
+        </div>
+        <div class="col-md-8 text-center text-md-right">
+          <button class="btn btn-primari--outline rounded-pill my-2">Message Photographer</button>
+          <button class="btn btn-primari rounded-pill my-2">Book Now</button>
+        </div>
+      </div>
+      <!-- calendar -->
+      <div class="row">
+        <div class="col-12 py-5">
+          <article>
+            <div class="calendars"></div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 text-center text-md-left mt-4">
+          <h6 class="text-uppercase">Quick Links</h6>
+          <a href="#">Find a photography</a>
+          <a href="#">Find my photos</a>
+          <a href="#">Peexoomemories</a>
+          <a href="#">Become a photographer</a>
+        </div>
+        <div class="col-md-4 text-center text-md-left mt-4">
+          <h6 class="text-uppercase">Company</h6>
+          <a href="#">About Us</a>
+          <a href="#">FAQs</a>
+          <a href="#">Pricing</a>
+          <a href="#">Careers</a>
+          <a href="#">Help & Support</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy</a>
+        </div>
+        <div class="col-md-4 text-center text-md-left mt-4">
+          <h6 class="text-uppercase">Connect with Us</h6>
+          <address>
+            5A, Awudu Egheda, <br>
+            Lekki, Lagos. <br>
+            +234 8003229932 <br>
+            customer.service@peexoo.ai
+          </address>
+          <div class="social-icons">
+            <a href="#">
+              <i class="fab fa-whatsapp-square"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-twitter-square"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright py-2 mt-4">
+      <p class="text-center">&copy; 2019 Peexoo Nigeria Limited</p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="lib/pickme-up-calendar/js/pickmeup.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,155 @@
+html, body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  font-family: 'Domine', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+.navbar, .navbar-brand {
+  padding: 0;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #212121;
+}
+
+.navbar-light .navbar-nav .nav-link.primary {
+  color: #ff9800;
+}
+
+.nav-link {
+  margin: 0 10px;
+  font-size: 15px;
+}
+
+.hero {
+  background: url(images/woman-fruit.jpeg);
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
+.sub-nav {
+  background-color: #ff9800;
+  min-height: 50px;
+}
+
+.sub-nav .navbar-nav .nav-link {
+  color: #ffffff;
+  margin: 0 25px;
+  width: 100%;
+  text-align: center;
+}
+
+.sub-nav .navbar-nav .nav-link.active {
+  background-color: #424242;
+  color: #ffffff;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-nav .display-photo {
+  width: 200px;
+  margin: -50px 0;
+  object-fit: cover;
+}
+
+.content {
+  background-color: #fff3e0;
+}
+
+.content .author small {
+  color: #03a9f4;
+}
+
+.btn {
+  padding: 10px 50px;
+}
+
+.btn-primari {
+  background-color: #ff9800;
+  color: #ffffff;
+}
+
+.btn-primari:hover {
+  color: #ffffff;
+  background-color: #ffba22;
+}
+
+.btn-primari--outline {
+  color: #ff9800;
+  border: 1px solid #ff9800;
+}
+
+.btn-primari--outline:hover {
+  background-color: #ff9800;
+  color: #ffffff;
+}
+
+.footer a {
+  display: block;
+  color: #424242;
+  margin-top: 10px;
+}
+
+.footer address {
+  line-height: 2;
+}
+
+.footer .social-icons {
+  font-size: 24px;
+}
+
+.social-icons a {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.social-icons .fa-whatsapp-square {
+  color: #4fce5d;
+}
+
+.social-icons .fa-facebook-square {
+  color: #3b5998;
+}
+
+.social-icons .fa-twitter-square {
+  color: #00acee;
+}
+
+.social-icons .fa-instagram {
+  color: #C13584;
+}
+
+.footer .copyright {
+  background-color: #323232;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  .sub-nav .navbar-nav .nav-link:first-child {
+    margin-top: 50px;
+  }
+
+  .sub-nav .display-photo {
+    margin: -50px 30px;
+  }
+}

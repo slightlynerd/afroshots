@@ -1,0 +1,21 @@
+.pickmeup {
+  background-color: transparent;
+}
+
+.pmu-instance {
+  margin: 10px;
+  background-color: #ffffff;
+}
+
+.pickmeup .pmu-instance .pmu-button {
+  color: #424242;
+}
+
+.pickmeup .pmu-instance .pmu-selected {
+  background-color: #ff9800;
+  color: #ffffff;
+}
+
+.pickmeup .pmu-instance .pmu-not-in-month.pmu-selected {
+  background-color: #ffffff;
+}
